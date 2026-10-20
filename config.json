@@ -1,0 +1,46 @@
+{
+  "values": [
+    {
+      "k": "ads.rescue_rewarded",
+      "v": "1"
+    },
+    {
+      "k": "ads.interstitial_from_level",
+      "v": "12"
+    },
+    {
+      "k": "ads.interstitial_every",
+      "v": "4"
+    },
+    {
+      "k": "ads.interstitial_gap_seconds",
+      "v": "150"
+    },
+    {
+      "k": "game.rescue_seconds",
+      "v": "5"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "rescue_seconds",
+      "variants": [
+        {
+          "name": "five",
+          "weight": 50,
+          "values": []
+        },
+        {
+          "name": "seven",
+          "weight": 50,
+          "values": [
+            {
+              "k": "game.rescue_seconds",
+              "v": "7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
